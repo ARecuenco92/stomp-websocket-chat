@@ -35,20 +35,20 @@
 
 * **Angular JS**: AngularJS is a JavaScript front-end web application framework to develop single page applications. It provides a framework for client side model–view–controller (MVC).
 
-⋅⋅⋅ Reference: [Angular JS](https://angularjs.org/)
+⋅⋅⋅Reference: [Angular JS](https://angularjs.org/)
 
 * **Bootstrap**: Bootstrap is a front-end web framework for designing responsive websites and web applications.
 
-⋅⋅⋅ Reference: [Bootstrap](http://getbootstrap.com/)
+⋅⋅⋅Reference: [Bootstrap](http://getbootstrap.com/)
 
 * **jQuery**: jQuery is a JavaScript library that makes HTML document traversal and manipulation, event handling, animations much simpler. 
 
-⋅⋅⋅ Reference: [jQuery](https://jquery.com/)
+⋅⋅⋅Reference: [jQuery](https://jquery.com/)
 
 * **sockjs-client**: SockJS is a browser JavaScript library that provides a WebSocket-like object. SockJS gives you a coherent, cross-browser, Javascript API which creates a low latency, full duplex, cross-domain communication channel between the browser and the web server. 
 
-⋅⋅⋅ Reference: [sockjs-client](https://github.com/sockjs/sockjs-client)
+⋅⋅⋅Reference: [sockjs-client](https://github.com/sockjs/sockjs-client)
 
 * **stomp-websocket**: STOMP.js is a browser JavaScript library that provides  STOMP client for Web browser (using Web Sockets). 
 
-⋅⋅⋅ Reference: [stomp-websocket](https://github.com/jmesnil/stomp-websocket)
+⋅⋅⋅Reference: [stomp-websocket](https://github.com/jmesnil/stomp-websocket)
