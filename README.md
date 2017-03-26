@@ -62,3 +62,7 @@ Finally, the chat module is in a different view. Therefore, it is possible to co
 * **stomp-websocket**: STOMP.js is a browser JavaScript library that provides  STOMP client for Web browser (using Web Sockets). 
 
 	Reference: [stomp-websocket](https://github.com/jmesnil/stomp-websocket)
+
+## References
+
+* [Using WebSocket to build an interactive web application](https://spring.io/guides/gs/messaging-stomp-websocket/)
