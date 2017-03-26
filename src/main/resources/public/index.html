@@ -1,0 +1,49 @@
+<!doctype html>
+<html ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chat application</title>
+
+    <link href="webjars/bootstrap/3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+	<script src="webjars/jquery/3.2.1/dist/jquery.min.js"></script>
+    <script src="webjars/angular/1.6.3/angular.min.js"></script>
+    <script src="webjars/angular-ui-router/0.4.2/release/angular-ui-router.min.js"></script>
+    <script src="webjars/bootstrap/3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="webjars/sockjs-client/1.1.2/dist/sockjs.min.js"></script>
+    <script src="webjars/stomp-websocket/2.3.4/lib/stomp.min.js"></script>
+
+    <!-- your app's js -->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.routes.js"></script>
+    <script src="app/app.config.js"></script>
+    <script src="app/app.directives.js"></script>
+
+    <script src="app/core/core.module.js"></script>
+
+    <script src="app/chat/chat.module.js"></script>
+    <script src="app/chat/chat.factory.js"></script>
+    <script src="app/chat/chat.controller.js"></script>
+
+    <script src="app/admin/admin.controller.js"></script>
+
+    <script src="app/products/products.module.js"></script>
+    <script src="app/products/products.routes.js"></script>
+    <script src="app/products/products.controller.js"></script>
+
+    <script src="app/shops/shops.module.js"></script>
+    <script src="app/shops/shops.routes.js"></script>
+    <script src="app/shops/shops.controller.js"></script>
+
+    <script src="app/blog/blog.module.js"></script>
+    <script src="app/blog/blog.routes.js"></script>
+    <script src="app/blog/blog.controller.js"></script>
+
+  </head>
+  <body>
+    <ui-view/>
+  </body>
+</html>
+

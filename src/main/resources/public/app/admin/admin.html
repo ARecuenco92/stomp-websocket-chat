@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-3">
+          <div class="list-group list-admin-chat">
+            <button class="list-group-item" ng-repeat="user in adminChatVM.chat.users"  ng-class="{'active' : adminChatVM.chat.selected === user.username }" ng-click="adminChatVM.selectUser(user)">
+              {{ user.username }}
+            </button>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <h4 ng-if="!adminChatVM.chat.selected">Please select a username to start the chat!</h4>
+          <div class="panel panel-default" ng-if="adminChatVM.chat.selected"t>
+            <div class="panel-body">
+              <div class="panel panel-default panel-admin-chat">
+                <div class="panel-body">
+                  <div ng-repeat="message in adminChatVM.chat.users[adminChatVM.chat.selected].messages">
+                    <div class="panel panel-default panel-message" ng-class="{'panel-remote-message' : message.username !== adminChatVM.chat.username }">
+                      <div class="panel-body">
+                        <p>{{ message.text }}</p> 
+                        <small><b>Sent</b>: {{ message.date | date:'dd/MM/yyyy HH:mm:ss' }}</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <form class="form-inline">
+                <div class="form-group form-chat">
+                  <input type="text" class="form-control chat-input" id="chatMessage" ng-model="adminChatVM.message" placeholder="Text message ...">
+                </div>
+                <button type="submit" class="btn btn-primary" ng-click="adminChatVM.sendMessage()">
+                  Send<span class="glyphicon glyphicon-send" aria-hidden="true"></span>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

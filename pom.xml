@@ -41,6 +41,43 @@
 			<artifactId>spring-boot-starter-websocket</artifactId>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/bootstrap -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>3.3.7</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/angular -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>angular</artifactId>
+			<version>1.6.3</version>
+		</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/angular-ui-router -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>angular-ui-router</artifactId>
+			<version>0.4.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/sockjs-client -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>sockjs-client</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.webjars.bower/stomp-websocket -->
+		<dependency>
+			<groupId>org.webjars.bower</groupId>
+			<artifactId>stomp-websocket</artifactId>
+			<version>2.3.4</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
