@@ -1,5 +1,11 @@
 # Chat service over WebSocket
 
+The aim of the project is to develop a support chat module to help consumers in real time. 
+
+The application contains a responsive single page application with a chat module that allows consumers to chat with the application administrator in real time. Additionally, the application contains an administrator section to display the connected users and their chats.
+
+Finally, the chat module is in a different view. Therefore, it is possible to configure in which sections should be appear. For example, the blog section does not display this chat. 
+
 ## Requirements to build the application
 
 * Java SE Development Kit 1.8 or later
@@ -27,28 +33,32 @@
 
 ### Server side
 
-* **Maven**: 
+* **Apache Maven**: Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-* **Spring Boot**: 
+	Reference: [Apache Maven](https://maven.apache.org/)
+
+* **Spring Boot**: is an application framework for the Java platform that provides extensions for building web applications on top of the Java EE platform.
+
+	Reference: [Spring Boot](https://projects.spring.io/spring-boot/)
 
 ### Client side
 
 * **Angular JS**: AngularJS is a JavaScript front-end web application framework to develop single page applications. It provides a framework for client side model–view–controller (MVC).
 
-⋅⋅⋅Reference: [Angular JS](https://angularjs.org/)
+	Reference: [Angular JS](https://angularjs.org/)
 
 * **Bootstrap**: Bootstrap is a front-end web framework for designing responsive websites and web applications.
 
-⋅⋅⋅Reference: [Bootstrap](http://getbootstrap.com/)
+	Reference: [Bootstrap](http://getbootstrap.com/)
 
 * **jQuery**: jQuery is a JavaScript library that makes HTML document traversal and manipulation, event handling, animations much simpler. 
 
-⋅⋅⋅Reference: [jQuery](https://jquery.com/)
+	Reference: [jQuery](https://jquery.com/)
 
 * **sockjs-client**: SockJS is a browser JavaScript library that provides a WebSocket-like object. SockJS gives you a coherent, cross-browser, Javascript API which creates a low latency, full duplex, cross-domain communication channel between the browser and the web server. 
 
-⋅⋅⋅Reference: [sockjs-client](https://github.com/sockjs/sockjs-client)
+	Reference: [sockjs-client](https://github.com/sockjs/sockjs-client)
 
 * **stomp-websocket**: STOMP.js is a browser JavaScript library that provides  STOMP client for Web browser (using Web Sockets). 
 
-⋅⋅⋅Reference: [stomp-websocket](https://github.com/jmesnil/stomp-websocket)
+	Reference: [stomp-websocket](https://github.com/jmesnil/stomp-websocket)
