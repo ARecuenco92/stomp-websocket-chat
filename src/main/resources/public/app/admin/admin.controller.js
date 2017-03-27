@@ -81,7 +81,6 @@
       vm.chat = {};
       vm.chat.username = 'admin';
       vm.chat.users = {};
-      vm.chat.selected = undefined;
 
       vm.connect();
       $window.onbeforeunload = vm.disconnect;

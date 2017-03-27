@@ -4,13 +4,13 @@
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3">
           <div class="list-group list-admin-chat hidden-xs hidden-sm">
-            <button class="list-group-item" ng-repeat="user in adminChatVM.chat.users"  ng-class="{'active' : adminChatVM.chat.selected === user.username }" ng-click="adminChatVM.selectUser(user)">
+            <button class="list-group-item" ng-repeat="user in adminChatVM.chat.users" ng-class="{'active' : adminChatVM.chat.selected === user.username }" ng-click="adminChatVM.selectUser(user)">
               {{ user.username }}
             </button>
           </div>
-          <div class="hidden-md hidden-lg">
-            <select class="form-control">
-          	  <option ng-repeat="user in adminChatVM.chat.users"  ng-click="adminChatVM.selectUser(user)">{{ user.username }}</option>
+          <div class="hidden-md hidden-lg" style="margin: 10px">
+            <select class="form-control" ng-model="adminChatVM.chat.selected" ng-options="user.username for user in adminChatVM.chat.users">
+              <option selected disabled value="">Select an username</option>
             </select>
           </div>
         </div>
