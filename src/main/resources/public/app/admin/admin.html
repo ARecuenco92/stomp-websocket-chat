@@ -3,10 +3,15 @@
     <div class="panel-body">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-3">
-          <div class="list-group list-admin-chat">
+          <div class="list-group list-admin-chat hidden-xs hidden-sm">
             <button class="list-group-item" ng-repeat="user in adminChatVM.chat.users"  ng-class="{'active' : adminChatVM.chat.selected === user.username }" ng-click="adminChatVM.selectUser(user)">
               {{ user.username }}
             </button>
+          </div>
+          <div class="hidden-md hidden-lg">
+            <select class="form-control">
+          	  <option ng-repeat="user in adminChatVM.chat.users"  ng-click="adminChatVM.selectUser(user)">{{ user.username }}</option>
+            </select>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-9">
