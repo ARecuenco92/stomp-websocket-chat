@@ -9,7 +9,7 @@
             </button>
           </div>
           <div class="hidden-md hidden-lg" style="margin: 10px">
-            <select class="form-control" ng-model="adminChatVM.chat.selected" ng-options="user.username for user in adminChatVM.chat.users">
+            <select class="form-control" ng-model="adminChatVM.chat.selected" ng-options="user.username as user.username for user in adminChatVM.chat.users">
               <option selected disabled value="">Select an username</option>
             </select>
           </div>
